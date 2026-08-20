@@ -1,1 +1,4 @@
-select 42 as answer;
+select
+  job_country
+from
+  job_postings_fact;
